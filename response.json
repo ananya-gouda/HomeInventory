@@ -1,0 +1,209 @@
+{
+  "ocr_type": "receipts",
+  "request_id": "P_36.255.14.6_lwmzyc21_mc1",
+  "ref_no": "oct_python_123",
+  "file_name": "recipts3.jpeg",
+  "request_received_on": 1716695125130,
+  "success": true,
+  "image_width": 612,
+  "image_height": 612,
+  "image_rotation": 0,
+  "recognition_completed_on": 1716695125470,
+  "receipts": [
+    {
+      "merchant_name": "RECEIPT",
+      "merchant_address": null,
+      "merchant_phone": null,
+      "merchant_website": null,
+      "merchant_tax_reg_no": null,
+      "merchant_company_reg_no": null,
+      "region": null,
+      "mall": null,
+      "country": "US",
+      "receipt_no": "Terminal#1",
+      "date": "2018-01-02",
+      "time": "11:32",
+      "items": [
+        {
+          "amount": 25.5,
+          "category": null,
+          "description": "T-Shirt",
+          "flags": "",
+          "qty": 1,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        },
+        {
+          "amount": 299,
+          "category": null,
+          "description": "Watches",
+          "flags": "",
+          "qty": 1,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        },
+        {
+          "amount": 32.99,
+          "category": null,
+          "description": "Pants",
+          "flags": "",
+          "qty": 1,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        },
+        {
+          "amount": 6.5,
+          "category": null,
+          "description": "Socks",
+          "flags": "",
+          "qty": 1,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        }
+      ],
+      "currency": "USD",
+      "total": 363.99,
+      "subtotal": null,
+      "tax": null,
+      "service_charge": null,
+      "tip": null,
+      "payment_method": "cash",
+      "payment_details": null,
+      "credit_card_type": null,
+      "credit_card_number": "7211",
+      "ocr_text": "              RECEIPT\n Terminal#1          01-02-2018 11:32 AM\n 1x T-Shirt                    $25.50\n 1x Watches                  $299.00\n 1 x Pants                     $32.99\n 1x Socks                       $6.50\n TOTAL AMOUNT                 $363.99\n CASH                        $400.00\n CHANGE                        $36.01\n Bank Card           ***** **** 7211\n Approval#                     192107\n    ****** THANK YOU!",
+      "ocr_confidence": 96.69,
+      "width": 258,
+      "height": 377,
+      "avg_char_width": 6.8883,
+      "avg_line_height": 10.9166,
+      "conf_amount": 74,
+      "source_locations": {
+        "date": [
+          [
+            {
+              "x": 313,
+              "y": 117
+            },
+            {
+              "x": 433,
+              "y": 117
+            },
+            {
+              "x": 433,
+              "y": 127
+            },
+            {
+              "x": 313,
+              "y": 127
+            }
+          ]
+        ],
+        "total": [
+          [
+            {
+              "x": 378,
+              "y": 298
+            },
+            {
+              "x": 431,
+              "y": 298
+            },
+            {
+              "x": 431,
+              "y": 310
+            },
+            {
+              "x": 378,
+              "y": 310
+            }
+          ]
+        ],
+        "receipt_no": [
+          [
+            {
+              "x": 170,
+              "y": 117
+            },
+            {
+              "x": 234,
+              "y": 117
+            },
+            {
+              "x": 234,
+              "y": 128
+            },
+            {
+              "x": 170,
+              "y": 128
+            }
+          ]
+        ],
+        "credit_card_number": [
+          [
+            {
+              "x": 312,
+              "y": 367
+            },
+            {
+              "x": 436,
+              "y": 371
+            },
+            {
+              "x": 435,
+              "y": 385
+            },
+            {
+              "x": 311,
+              "y": 380
+            }
+          ]
+        ],
+        "merchant_name": [
+          [
+            {
+              "x": 266,
+              "y": 74
+            },
+            {
+              "x": 338,
+              "y": 74
+            },
+            {
+              "x": 338,
+              "y": 87
+            },
+            {
+              "x": 266,
+              "y": 87
+            }
+          ]
+        ],
+        "doc": [
+          [
+            {
+              "x": 160,
+              "y": 56
+            },
+            {
+              "x": 443,
+              "y": 56
+            },
+            {
+              "x": 443,
+              "y": 470
+            },
+            {
+              "x": 160,
+              "y": 470
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}
